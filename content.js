@@ -1,0 +1,1 @@
+ alert("contains bad word!!!!!")

@@ -56,6 +56,11 @@ body {
     font-size: 15px;
     color: white;
 }
+
+.subheading2 {
+    font-size: 12px;
+    color: white;
+}
 /* Customize the label (the container) */
 .container {
     display: block;

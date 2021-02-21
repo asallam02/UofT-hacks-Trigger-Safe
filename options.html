@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>
+        TriggerSafe Options
+    </title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div id="heading" class="heading">
+        <h2>Settings</h2>
+    </div>
+    <div id="subheading1" class="subheading1">
+        <h1>Categories</h1>
+    </div>
+    <div id="categories" class="categories">
+        <label class="container">
+            Physical Abuse
+            <input type="checkbox" checked="checked">
+            <span class="checkmark"></span>
+        </label>
+
+        <label class="container">
+            Substance Abuse
+            <input type="checkbox">
+            <span class="checkmark"></span>
+        </label>
+
+        <label class="container">
+            Profanity
+            <input type="checkbox">
+            <span class="checkmark"></span>
+        </label>
+
+        <label class="container">
+            Rape
+            <input type="checkbox">
+            <span class="checkmark"></span>
+        </label>
+    </div>
+
+    <div id="customWords" class="customWords">
+        Enter any further words you would want censored seperated by a comma. If you would like to replace that word with another <br />
+        enter the replacement after the word seperated by a colon. (ex: "dog:cat" would replace dog with cat) <br /><br />
+        <input type="text" />
+    </div>
+    <div id="status"></div>
+    <button id="save" class="save">Save</button>
+
+    <script src="options.js"></script>
+</body>
+</html>
